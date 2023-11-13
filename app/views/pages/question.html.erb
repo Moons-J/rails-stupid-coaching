@@ -1,0 +1,11 @@
+<div class="card mb-3">
+<%= image_tag "mad_football_coach", class: "card-img-top", alt: "coach" %>
+  <%# <img src="../../assets/images/mad_football_coach.jpg" class="card-img-top" alt="mad football coach"> %>
+  <div class="card-body">
+    <h5 class="card-title">Ask the coach anything:</h5>
+    <form action="/answer" data-turbo="false">
+      <input type="text" name="question">
+      <input type="submit" value="Ask!">
+    </form>
+  </div>
+</div>

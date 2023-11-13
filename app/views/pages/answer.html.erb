@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-around">
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <div class="card-header">You</div>
+    <div class="card-body">
+      <p class="card-text"><%= params[:question] %></p>
+    </div>
+  </div>
+
+  <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+    <div class="card-header">Grumpy Coach</div>
+    <div class="card-body">
+      <p class="card-text"><%= @answer %></p>
+    </div>
+  </div>
+</div>
+<a href="/question" type="button" class="btn btn-light">Ask a new question</a>
